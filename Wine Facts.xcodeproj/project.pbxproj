@@ -13,6 +13,12 @@
 		5BC8EB702A0CE790002CFBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8EB6E2A0CE790002CFBDB /* Main.storyboard */; };
 		5BC8EB722A0CE792002CFBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8EB712A0CE792002CFBDB /* Assets.xcassets */; };
 		5BC8EB752A0CE792002CFBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8EB732A0CE792002CFBDB /* LaunchScreen.storyboard */; };
+		5BC8EB812A0D007A002CFBDB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB7D2A0D007A002CFBDB /* CustomView.swift */; };
+		5BC8EB822A0D007A002CFBDB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB7E2A0D007A002CFBDB /* CustomButton.swift */; };
+		5BC8EB832A0D007A002CFBDB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB7F2A0D007A002CFBDB /* CustomTextField.swift */; };
+		5BC8EB842A0D007A002CFBDB /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB802A0D007A002CFBDB /* CustomLabel.swift */; };
+		5BC8EB862A0D0539002CFBDB /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB852A0D0539002CFBDB /* Facts.swift */; };
+		5BC8EB882A0D06E1002CFBDB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EB872A0D06E1002CFBDB /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		5BC8EB712A0CE792002CFBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC8EB742A0CE792002CFBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC8EB762A0CE792002CFBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC8EB7D2A0D007A002CFBDB /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5BC8EB7E2A0D007A002CFBDB /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5BC8EB7F2A0D007A002CFBDB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5BC8EB802A0D007A002CFBDB /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		5BC8EB852A0D0539002CFBDB /* Facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		5BC8EB872A0D06E1002CFBDB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		5BC8EB672A0CE790002CFBDB /* Wine Facts */ = {
 			isa = PBXGroup;
 			children = (
+				5BC8EB7C2A0D007A002CFBDB /* Custom Control */,
 				5BC8EB682A0CE790002CFBDB /* AppDelegate.swift */,
 				5BC8EB6A2A0CE790002CFBDB /* SceneDelegate.swift */,
 				5BC8EB6C2A0CE790002CFBDB /* ViewController.swift */,
+				5BC8EB872A0D06E1002CFBDB /* CollectionViewCell.swift */,
+				5BC8EB852A0D0539002CFBDB /* Facts.swift */,
 				5BC8EB6E2A0CE790002CFBDB /* Main.storyboard */,
 				5BC8EB712A0CE792002CFBDB /* Assets.xcassets */,
 				5BC8EB732A0CE792002CFBDB /* LaunchScreen.storyboard */,
 				5BC8EB762A0CE792002CFBDB /* Info.plist */,
 			);
 			path = "Wine Facts";
+			sourceTree = "<group>";
+		};
+		5BC8EB7C2A0D007A002CFBDB /* Custom Control */ = {
+			isa = PBXGroup;
+			children = (
+				5BC8EB7D2A0D007A002CFBDB /* CustomView.swift */,
+				5BC8EB7E2A0D007A002CFBDB /* CustomButton.swift */,
+				5BC8EB7F2A0D007A002CFBDB /* CustomTextField.swift */,
+				5BC8EB802A0D007A002CFBDB /* CustomLabel.swift */,
+			);
+			path = "Custom Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BC8EB6D2A0CE790002CFBDB /* ViewController.swift in Sources */,
+				5BC8EB812A0D007A002CFBDB /* CustomView.swift in Sources */,
+				5BC8EB882A0D06E1002CFBDB /* CollectionViewCell.swift in Sources */,
+				5BC8EB832A0D007A002CFBDB /* CustomTextField.swift in Sources */,
+				5BC8EB842A0D007A002CFBDB /* CustomLabel.swift in Sources */,
 				5BC8EB692A0CE790002CFBDB /* AppDelegate.swift in Sources */,
 				5BC8EB6B2A0CE790002CFBDB /* SceneDelegate.swift in Sources */,
+				5BC8EB822A0D007A002CFBDB /* CustomButton.swift in Sources */,
+				5BC8EB862A0D0539002CFBDB /* Facts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,24 +319,30 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2T8ZX7X76S;
+				DEVELOPMENT_TEAM = 742XDHY7Z4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wine Facts/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Winopedia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.winefacts.ios.Wine-Facts";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winefacts.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,24 +353,30 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2T8ZX7X76S;
+				DEVELOPMENT_TEAM = 742XDHY7Z4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Wine Facts/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Winopedia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.winefacts.ios.Wine-Facts";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winefacts.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
